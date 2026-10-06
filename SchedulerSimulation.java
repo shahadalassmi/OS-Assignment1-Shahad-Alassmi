@@ -34,6 +34,7 @@ class Process implements Runnable {
     private int priority; // Priority level from 1 to 10, where 10 is highest
     private long waitingTime = 0;
     private long queueEntryTime;
+    private long creationTime;
 
     // Constructor to initialize the process with name, burst time, and time quantum
     public Process(String name, int burstTime, int timeQuantum, int priority) {
@@ -42,6 +43,7 @@ class Process implements Runnable {
         this.timeQuantum = timeQuantum;
         this.remainingTime = burstTime; // Initially, remaining time is equal to the burst time
         this.priority = priority;
+        this.creationTime = System.currentTimeMillis();
     }
 
     public void markQueueEntry() {
