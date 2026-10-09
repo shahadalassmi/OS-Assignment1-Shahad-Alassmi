@@ -250,17 +250,6 @@ By completing the task step-by-step and testing the program after each feature, 
 **Your Answer:** *(5-7 sentences)*
 
 Multithreading concepts can be used in many real-world applications. In a web browser, different threads can handle tasks such as loading pages, playing media, and responding to user actions at the same time. In a mobile application, threads can perform background tasks while the main thread keeps the interface responsive. In a music player, one thread can play music while another handles user controls or loads data. These examples are similar to my assignment because multiple threads can perform tasks while sharing CPU time. Thread scheduling and time limits help prevent one task from using the CPU continuously. This makes applications more responsive and allows multiple tasks to make progress.
-### Optional: What would you like to learn more about?
-
-[Any topics related to threading or operating systems that you're curious about?]
-
-### Optional: How confident do you feel about multithreading concepts now?
-
-[Beginner / Intermediate / Confident. What do you understand well? What needs more practice?]
-
-### Optional: Feedback on the assignment
-
-[Any comments? Was it helpful? Too easy or hard? Suggestions?]
 
 ---
 
@@ -401,10 +390,10 @@ Round-Robin can handle several requests in a fair and timely manner. While the t
 
 **Video**
 - [x] 2-3 minutes long, named `StudentID_Assignment1_Demo.mp4`
-- [ ] Shows your name, ID, repository, 3 features, IDE execution, one threading concept, and commit history
+- [x] Shows your name, ID, repository, 3 features, IDE execution, one threading concept, and commit history
 - [x] Link is **public** (tested in an incognito window) and pasted in the **Video Link** section above
 
 **Blackboard**
-- [ ] Submit **only** the link to your public GitHub repository
+- [x] Submit **only** the link to your public GitHub repository
 
 > 🎯 **Good luck!** Start early, commit regularly, and make sure you can explain every line you submit.
