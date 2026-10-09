@@ -46,6 +46,7 @@ class Process implements Runnable {
         this.creationTime = System.currentTimeMillis();
     }
 
+    // Feature 3: Waiting Time Tracking
     public void markQueueEntry() {
         queueEntryTime = System.currentTimeMillis();
     }
